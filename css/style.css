@@ -1,8 +1,8 @@
 
 body{
 
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 header{
 background-color: white;
@@ -12,11 +12,11 @@ width: 100%;
 
 .up_header{
 
-	background-color: #535D69;
-	width: 100%;
-	height: 40px;
-	margin:  0 auto;
-	overflow: hidden;
+  background-color: #535D69;
+  width: 100%;
+
+  margin:  0 auto;
+  overflow: hidden;
 }
 
 .header_text{
@@ -85,21 +85,21 @@ color: white;
 font-size: 10px;
 text-align: center;
 
-	}
+  }
 
 .log_in button:hover {
 
   background-color: #4CAF50; /* Green */
   color: white;
-	}
+  }
 
 
 
 
 .wrapper {
-	overflow: hidden;
-	width: 100%;
-	
+  overflow: hidden;
+  width: 100%;
+  
 }
 
 .logo {
@@ -134,8 +134,8 @@ float: right;
 .menu ul{}
 
 .menu ul li{
-	list-style: none;
-	float:left;
+  list-style: none;
+  float:left;
 }
 
 
@@ -197,8 +197,8 @@ background:
 .wrapper_banner{
 
 
-	width: 100%;
-	background-image: url(../images/banner.jpg);
+  width: 100%;
+  background-image: url(../images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -208,8 +208,8 @@ background:
 
 .banner_layer{
 
-	width: 100%;
-	background-color: rgba(25, 15, 17, 0.5);
+  width: 100%;
+  background-color: rgba(25, 15, 17, 0.5);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -226,18 +226,18 @@ padding-left: 187px;
 }
 .b_text h1{
 
-	font-family: 'Poppins', sans-serif;
-	font-size:28px;
-	color: white;
-	text-transform: capitalize;
-	}
+  font-family: 'Poppins', sans-serif;
+  font-size:28px;
+  color: white;
+  text-transform: capitalize;
+  }
 
 .b_text p{
 
 font-family: 'Poppins', sans-serif;
 font-size: 12px;
 color: white;
-	
+  
 }
 
 .b_text button{
@@ -274,3 +274,187 @@ cursor: pointer;
 
 
 /*Banner End*/
+
+
+/*Service start*/
+
+.service{
+
+text-align: center;
+
+margin: 70px 0;
+}
+
+.service_wrapper{
+
+margin:0 auto;
+
+margin-left: 188px;
+
+width: 90%;
+}
+
+
+.service_content{
+
+text-align: center;
+overflow: hidden;
+width: 80%;
+
+}
+
+
+.service_content h1{
+
+font-family: 'Poppins', sans-serif;
+  font-size:28px;
+  color: black;
+  text-transform: capitalize;
+
+}
+
+
+.service_content p{
+
+  font-family: 'Poppins', sans-serif;
+  font-size:12px;
+  color: black;
+  text-transform: capitalize;
+
+
+}
+
+
+.service_images {
+
+width:  30%;
+
+float: left;
+
+padding: 12px;
+
+margin-top: 40px;
+
+margin-bottom: 30px;
+
+padding: 0 15px;
+
+cursor: pointer;
+
+text-align: center;
+}
+
+.service_images img {
+
+
+}
+
+.service_images p{
+
+  font-family: 'Poppins', sans-serif;
+  font-size:13px;
+  font-weight: 400;
+  color: black;
+  text-transform: capitalize;
+
+
+}
+
+
+/*Service End*/
+
+/*Video Start*/
+
+.video_content{
+
+
+}
+
+
+.video_wrapper{
+
+margin:0 auto;
+
+margin-left: 188px;
+
+width: 90%;
+
+overflow: hidden;
+
+padding: 80px 67px;
+}
+
+
+
+.v_Content {
+
+width: 40%;
+float:left;
+
+
+}
+
+.v_Content h3{
+
+  font-family: 'Poppins', sans-serif;
+  font-size:18px;
+  color: black;
+  text-transform: uppercase;
+
+
+}
+
+.v_Content p{
+
+  font-family: 'Poppins', sans-serif;
+  font-size:11px;
+  color: black;
+}
+
+.v_Content button{
+
+width: 100px;
+
+height: 31px;
+
+font-family: 'Poppins', sans-serif;
+
+font-size: 10px;
+
+color: white;
+
+background-color: #d12c4e;
+
+border-style: none;
+
+border-radius: 3px;
+
+text-align: center;
+
+text-transform: uppercase;
+
+margin-top: 27px;
+cursor: pointer;
+
+}
+
+.v_Content button:hover{
+
+
+background-color: #4CAF50;
+color: white;
+}
+
+}
+
+
+.video{
+
+float: left;
+width: 40%;
+
+}
+
+
+
+/*Video End*/
