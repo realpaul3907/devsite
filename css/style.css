@@ -375,23 +375,22 @@ text-align: center;
 
 margin:0 auto;
 
-margin-left: 188px;
+margin-left: 258px;
 
 width: 90%;
 
 overflow: hidden;
 
-padding: 80px 67px;
+padding: 63px 67px;
 }
 
 
 
 .v_Content {
 
-width: 40%;
+width: 30%;
+
 float:left;
-
-
 }
 
 .v_Content h3{
